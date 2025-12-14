@@ -8,6 +8,7 @@ data = {
 
 df = pd.DataFrame(data)
 df['C'] = df['A'] + df['B']
+df['D']= df['A'] * df['B']
 # target folder path
 folder_path = r"C:\Users\Z.S computers\Desktop\pc\project\db"
 
