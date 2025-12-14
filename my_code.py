@@ -9,7 +9,7 @@ data = {
 df = pd.DataFrame(data)
 
 # target folder path
-folder_path = r"C:\Users\Z.S computers\Desktop\pc\mlop\db"
+folder_path = r"C:\Users\Z.S computers\Desktop\pc\project\db"
 
 # create folder if it doesn't exist
 os.makedirs(folder_path, exist_ok=True)
